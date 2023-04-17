@@ -7,13 +7,13 @@ using TMPro;
 public class Character : MonoBehaviour
 {
     [SerializeField] new string name;
-    [SerializeField] CharacterType type;
     [SerializeField] int currentHP;
     [SerializeField] int maxHP;
     [SerializeField] int attackPower;
     [SerializeField] TMP_Text overHeadText;
     [SerializeField] Image avatar;
     [SerializeField] TMP_Text nameText;
+    [SerializeField] CharacterType type;
     [SerializeField] TMP_Text typeText;
     [SerializeField] Image healthBar;
     [SerializeField] TMP_Text hpText;
